@@ -1,0 +1,304 @@
+
+/* CHERLY SALVILLA */ /* CHERLY SALVILLA */ /* CHERLY SALVILLA */ /* CHERLY SALVILLA */ 
+/* SEAN JOHN PURIO */ /* SEAN JOHN PURIO */ /* SEAN JOHN PURIO */ /* SEAN JOHN PURIO */
+
+
+
+/*  FOR THE BACKGROUND OF THE WEBPAGE  */
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 130vh;
+}
+
+/* FOR THE ANIMATION OF THE COLORS OF THE GRADIENT*/
+
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;} }
+
+  
+/*    FOR THE NAV BAR   */
+nav {
+  max-width: 960px;
+  background-color: rgba(255, 255, 255, 0.208);
+  margin: 0 auto;
+  margin-top: 0%;
+  margin-bottom: 30px;
+  padding: 0px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li { display: inline-block;}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(136, 0, 255, 0.347);
+  color: rgb(255, 255, 255);}
+
+
+/*   CURRENT NAV BAR PAGE  */
+.homezz {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(0, 124, 70, 0.478);
+  color: rgb(255, 255, 255); }
+
+
+/*  PRODUCT CARD AND ADD TO CART BUTTONS OR DESIGN */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+*, ::before, ::after { box-sizing: border-box; }
+body{
+  font-family:'Quicksand', sans-serif;
+  text-align:center;
+  line-height:1.5em;}
+
+hr {
+  border:none;
+  background:#E0E4CC;
+  height:1px;}
+
+h1{ margin: 12px; }
+.container {
+  max-width: 800px; 
+  margin: 1em auto; 
+  background:rgb(255, 1, 1); 
+  padding:30px;
+  border-radius:5px;
+}
+.productcont { display: block;}
+
+.product {
+  width: 250px;
+  padding:1em; 
+ color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background: #ffffff2e;
+box-shadow: 0 5px 15px 0 #000000;
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1.5px solid	#ffffff; }
+
+.cart-container {
+background-image: url('https://wallpaperaccess.com/full/781383.jpg');
+  height: 800px;
+  width: 500px;
+  border:1px solid #000000;
+  border-radius:5px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:1em; }
+
+button, input[type="submit"] { 
+    border:1px solid #ffffff; 
+    color:rgb(0, 0, 0); 
+    background: rgba(110, 110, 110, 0.338);
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.1s ease-in-out, background 0.1s ease-in-out, border-color 0.1s ease-in-out;}
+
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+  background: linear-gradient(180deg,
+  rgb(170, 204, 255) 0%,rgb(68, 124, 246) 49%,rgb(44, 96, 253) 51%,
+  rgb(0, 68, 255) 100%);
+    border-color:#ffffff;
+    color:#000;
+    cursor: pointer;}
+
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;}
+
+table td, table th {
+  float: none;
+  text-align:right;
+  padding:0.25em 1em;
+  border-bottom:1px solid #000000;}
+
+#carttotals {
+  margin-right:0;
+  margin-left:auto;}
+
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;}
+
+#emptycart { margin-right:1em; }
+
+table td:nth-last-child(1) {
+  text-align:right;}
+
+.message {
+  width: 500px;
+  border-width: 2px 0px;
+  border-style:solid;
+  border-color: #000000;
+  color: white;
+  padding:0.5em 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+
+  
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 40%; /* Could be more or less, depending on screen size */
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgb(255, 255, 255);}
+
+
+/* The Close Button */
+.close {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  cursor: pointer;}
+
+/* TEAPOP HEADER*/
+.gradient {
+  color:rgba(255,145,144,1);
+  margin-top: 80px;
+  margin-bottom: 70px;
+  font-size: 100px;
+  text-align: center;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+  -webkit-background-clip: text;}
+
+
+/* FOR THE CHECKOUT BUTTON RESULT*/
+/* CSS Pop Up Button*/
+
+a.popup-link{
+  border:1px solid #ffffff; 
+    color:rgb(0, 0, 0); 
+    background: rgba(110, 110, 110, 0.338);
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+  display:block}
+
+a.popup-link:hover{background-color:#90caeb;
+  box-shadow:0 3px 0 0 #003cff;
+  -webkit-transition:all 0.1s;
+  -moz-transition:all 0.1s;
+  transition:all 0.1s}
+
+#popup{visibility:hidden;
+  opacity:0;margin-top:-200px;}
+
+#popup:target
+{visibility:visible;
+  opacity:1;
+  background-color:transparent;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0;
+  z-index:999;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  transition:all 1s}
+
+@media (min-width:768px){.popup-container{width:300px}}
+@media (max-width:767px){.popup-container{width:90%}}
+
+.popup-container{
+  position:relative;
+  margin:7% auto;
+  padding:15px 30px;
+  background-color:#8dbb90;
+  color:#fff;
+  border-radius:3px;
+  line-height:normal;
+  font-size:130%;
+  width:30%;
+  height: 50%;
+  border:3px solid #fff;
+  box-shadow:0 0 10px rgba(0,0,0,.15);}
+
+a.popup-close{position:absolute;
+  top:-3px;right:-3px;
+  background-color:#fff;
+  padding:7px 10px;
+  font-size:20px;
+  text-decoration:none;
+  line-height:1;
+  color:#333;
+  border-bottom-left-radius:3px;}
+
+a.popup-close:hover{border-radius:3px;transform:scale(1.5)}
+
+/* time for THE receipt*/
+.timezz {
+  font-size: 20px;
+  margin-bottom: 5px;}
+
+/* FOR THE PICTURE IN THE POP UP MESSAGE */
+.emoji {
+  color: #000;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;}
+
+.iconzz{width: 100px;}
+.sf { font-size: 10px;}
+
